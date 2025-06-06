@@ -44,7 +44,7 @@ npm run build
 -  Collapsible label editors and add-forms
 - Search & filter by Node name, Asset name, or Label key/value
 - Powered by Redux Toolkit for scalable global state
-- Persistent tree using browser `localStorage`
+- Persistent tree using browser localStorage
 - Responsive and accessible UI design
 
 ---
@@ -88,7 +88,7 @@ type Label = {
 
 ###  Approach
 
-- Root is a `TreeNode` with recursive children, assets, and datapoints.
+- Root is a TreeNode with recursive children, assets, and datapoints.
 - Redux Toolkit manages global state for predictability and dev tooling.
 - Utility functions handle:
   - Inherited label resolution
@@ -119,9 +119,3 @@ type Label = {
 - If a child node matches, its *arents are shown to preserve context
 - Only matching branches are rendered
 
----
-
-## File Structure
-
-
--
