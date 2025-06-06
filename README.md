@@ -37,7 +37,7 @@ npm run build
 ## 🔍 Features
 
 - Add, edit, and delete Nodes, Assets, and Datapoints
-- Drag-and-drop** reordering of Nodes
+- Drag-and-drop reordering of Nodes
 - Add, edit, and remove Labels for all entities
 -  Inherited label visibility from parent Nodes
 -  Show path from root to any Node/Asset/Datapoint
